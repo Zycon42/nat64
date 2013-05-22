@@ -1,0 +1,8 @@
+*~
+*.o
+*.kdev4
+doc
+*.list
+nat64
+rules.txt
+*.tar

@@ -1,0 +1,47 @@
+Statický NAT64 překladač.
+
+Projekt do předmětu isa 2011.
+
+Požadavky:
+knihovny libpcap, libnet.
+testováno na systému linux.
+GNU make
+
+Překlad:
+make
+
+Spuštění
+./nat64 -i <INTERFACE> -o <INTERFACE> -r <RULES>
+./nat64 -h
+
+Rozšíření:
+nic
+
+Známé bugy:
+nic
+
+Soubory:
+Readme
+manual.pdf
+Makefile
+callback.h
+exceptions.h
+checksum.cpp
+checksum.h
+log.cpp
+log.h
+main.cpp
+nat.cpp
+nat.h
+nattable.cpp
+nattable.h
+packets.cpp
+packets.h
+sender.cpp
+sender.h
+sniffer.cpp
+sniffer.h
+snifferservice.cpp
+snifferservice.h
+
+
